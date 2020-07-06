@@ -19,4 +19,12 @@ public class TrackCoach implements Coach {
 		return "Holiday!";
 	}
 	
+	public void initMethod() {
+		System.out.println("init");
+	}
+	
+	public void destroyMethod() {
+		System.out.println("destroy");
+	}
+	
 }
